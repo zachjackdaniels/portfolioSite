@@ -2,17 +2,17 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Zach Daniels | Developer', // e.g: 'Name | Developer'
+    lang: 'en', // e.g: en, es, fr, jp
+    description: 'Learn more about Zach Daniels', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hi, my name is',
+    name: 'Zach Daniels',
+    subtitle: 'Information Systems undergraduate at Brigham Young University',
+    cta: 'Learn more',
 };
 
 // ABOUT DATA
@@ -28,12 +28,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'Univar3.jpg',
+      title: 'Univariate Data Visualization',
+      info: 'Comparing car models with their acceleration',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://colab.research.google.com/drive/1UW-XSqSvGe6Dcw7dlNaoo-t-oRIFjL6Y?usp=sharing',
+      repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -57,9 +57,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Let\'s talk!',
+    btn: 'Contact me',
+    email: 'zdaniels.ent@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,23 +67,23 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
+      name: 'instagram',
+        url: 'https://www.instagram.com/zachjackdaniels/',
     },
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/zdaniels',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/zachary-daniels/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/zachjackdaniels',
     },
   ],
 };
