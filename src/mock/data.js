@@ -1,39 +1,40 @@
-import { nanoid } from 'nanoid';
+import {
+  nanoid
+} from 'nanoid';
 
 // HEAD DATA
 export const headData = {
   title: 'Zach Daniels | Developer', // e.g: 'Name | Developer'
-    lang: 'en', // e.g: en, es, fr, jp
-    description: 'Learn more about Zach Daniels', // e.g: Welcome to my website
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Learn more about Zach Daniels', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: 'Hi, my name is',
-    name: 'Zach Daniels',
-    subtitle: 'Information Systems undergraduate at Brigham Young University',
-    cta: 'Learn more',
+  name: 'Zach Daniels',
+  subtitle: 'Information Systems Undergrad at BYU',
+  cta: 'Learn more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'Zach Daniels is a driven and people-focused professional with a wide range of experience in sales, team management, data analytics, and tech solutions. As a student of BYU\'s Information Systems Program, colleagues and mentors know him as a motivating, kind, and creative individual, with a passion for helping people and organizations reach their potential.',
+  paragraphTwo: 'His experiences at Podium, one of the fastest growing tech startups in Utah; in Washington DC, doing Door-to-door sales; and his religious mission in Rome, Italy have all contributed to a well-rounded perspective for creating innovative solutions to problems in both the world of software and of people.',
+  paragraphThree: 'Zach\'s skills and specialties include C# & ASP.NET Core MVC web app creation, JavaScript, Salesforce, VBA, API/FTP Development, and Sales. He is interested in tech solutions, web design, team management, and data analytics. And his hobbies include rock climbing, learning guitar, listening to audiobooks/podcasts/music, and exploring the outdoors.',
+  resume: 'https://drive.google.com/file/d/1awLqlqvpGPyop_RuF3oO9p2KkMTd9HyE/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
-export const projectsData = [
-  {
+export const projectsData = [{
     id: nanoid(),
     img: 'Univar3.jpg',
-      title: 'Univariate Data Visualization',
-      info: 'Comparing car models with their acceleration',
-    info2: '',
+    title: 'Univariate Data Visualization',
+    info: 'Comparing car models with their acceleration',
+    info2: 'Tools used: Python, Seaborn, Pandas',
     url: 'https://colab.research.google.com/drive/1UW-XSqSvGe6Dcw7dlNaoo-t-oRIFjL6Y?usp=sharing',
-      repo: '', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -58,17 +59,16 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: 'Let\'s talk!',
-    btn: 'Contact me',
-    email: 'zdaniels.ent@gmail.com',
+  btn: 'Contact me',
+  email: 'zdaniels.ent@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
-  networks: [
-    {
+  networks: [{
       id: nanoid(),
       name: 'instagram',
-        url: 'https://www.instagram.com/zachjackdaniels/',
+      url: 'https://www.instagram.com/zachjackdaniels/',
     },
     {
       id: nanoid(),
