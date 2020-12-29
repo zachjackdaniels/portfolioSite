@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     "Zach Daniels is a driven and people-focused professional with a wide range of experience in team management, software development, sales, data analytics, and tech solutions. A student of BYU's Information Systems Program, colleagues and mentors know him as a motivating, kind, and creative individual, with a passion for helping people and organizations reach their potential.",
   paragraphTwo:
-    'His experiences at Brigham Young University performing full-stack development and database mangement; at Podium, one of the fastest growing tech startups in Utah; in Washington DC, doing Door-to-door sales; and his religious mission in Rome, Italy have all contributed to a well-rounded perspective for creating innovative solutions to problems in both the world of software and of people.',
+    'His experiences at Brigham Young University performing full-stack development and database mangement, at Podium, one of the fastest growing tech startups in Utah; in Washington DC, doing Door-to-door sales; and his religious mission in Rome, Italy have all contributed to a well-rounded perspective for creating innovative solutions to problems in both the world of software and of people.',
   paragraphThree:
     "Zach's skills and specialties include C# & .NET Core MVC development, Python, Django, React, JavaScript, Salesforce, VBA, API/FTP Development, and Sales. He is interested in tech solutions, web design, team management, and data analytics. And his hobbies include skiing, rock climbing, learning guitar, listening to audiobooks/podcasts/music, and exploring outdoors.",
   resume: 'https://drive.google.com/file/d/1awLqlqvpGPyop_RuF3oO9p2KkMTd9HyE/view?usp=sharing', // if no resume, the button will not show up
